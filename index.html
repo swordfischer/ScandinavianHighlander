@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>Scandinavian Highlander</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/4.3.0/jquery.rss.min.js" integrity="sha256-DSWmjnMkQNPl1BK0qPjBpYPHRJlb/XY6kmQhRmTqQUY=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+		<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+			<header class="masthead mb-auto">
+			<div class="inner">
+			<h3 class="masthead-brand"></h3>
+			<nav class="nav nav-masthead justify-content-center">
+				<a class="nav-link active" href="/">Home</a>
+				<a type="button" class="nav-link" href="#" data-toggle="modal" data-target="#points">Point List</a>
+				<a type="button" class="nav-link nav-icon" target="_blank" href="https://www.facebook.com/groups/569326103949592"><i class="fab fa-2x fa-facebook"></i></a>
+				<a type="button" class="nav-link nav-icon" target="_blank" href="https://discord.gg/ZTdyj84"><i class="fab fa-2x fa-discord"></i></a>
+				<a type="button" class="nav-link nav-icon" target="_blank" href="https://instagram.com/scandinavianhighlander"><i class="fab fa-2x fa-instagram"></i></a>
+			</nav>
+        </div>
+		</header>
+		<main role="main" class="inner cover">
+			<h1 class="cover-heading">Scandinavian Highlander</h1>
+			<p class="lead">is a 100 card singleton, 1 v 1 competitive MTG format that utilizes a points list alongside a proxy point list. There are no sideboards.</p>
+			<h2>Podcast</h2>
+			<p class="lead">
+				<iframe title="Højlandspap" id="multi_iframe" style="border: none;" scrolling="no" allowfullscreen="" src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F8890409%2Fplaylist_multi.xml&vjs=1&size=240&share=1&fonts=Helvetica&auto=0&download=1&skin=12" width="100%" height="440"></iframe>
+			</p>
+		</main>
+		<footer class="mastfoot mt-auto">
+			<div class="inner">
+			</div>
+		</footer>
+    </div>
+	<div class="modal fade" id="points" tabindex="-1" role="dialog" aria-labelledby="points" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="pointslabel">Points List</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+				<table class="table table-sm">
+					<thead>
+						<tr>
+						  <th scope="col">Name</th>
+						  <th scope="col">Points</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td>Ancestral Recall</td><td>7</td></tr>
+						<tr><td>Balance</td><td>1</td></tr>
+						<tr><td>Birthing Pod</td><td>2</td></tr>
+						<tr><td>Black Lotus</td><td>7</td></tr>
+						<tr><td>Crop Rotation</td><td>1</td></tr>
+						<tr><td>Demonic Tutor</td><td>4</td></tr>
+						<tr><td>Dig Through Time</td><td>1</td></tr>
+						<tr><td>Flash</td><td>6</td></tr>
+						<tr><td>Gifts Ungiven</td><td>2</td></tr>
+						<tr><td>Imperial Seal</td><td>1</td></tr>
+						<tr><td>Intuition</td><td>1</td></tr>
+						<tr><td>Library of Alexandria</td><td>1</td></tr>
+						<tr><td>Mana Crypt</td><td>4</td></tr>
+						<tr><td>Mana Drain</td><td>1</td></tr>
+						<tr><td>Mana Vault</td><td>1</td></tr>
+						<tr><td>Merchant Scroll</td><td>1</td></tr>
+						<tr><td>Mind Twist</td><td>1</td></tr>
+						<tr><td>Mox Emerald</td><td>3</td></tr>
+						<tr><td>Mox Jet</td><td>3</td></tr>
+						<tr><td>Mox Pearl</td><td>3</td></tr>
+						<tr><td>Mox Ruby</td><td>3</td></tr>
+						<tr><td>Mox Sapphire</td><td>3</td></tr>
+						<tr><td>Mystical Tutor</td><td>2</td></tr>
+						<tr><td>Natural Order</td><td>4</td></tr>
+						<tr><td>Price of Progress</td><td>1</td></tr>
+						<tr><td>Protean Hulk</td><td>3</td></tr>
+						<tr><td>Shahrazad</td><td>11</td></tr>
+						<tr><td>Sol Ring</td><td>4</td></tr>
+						<tr><td>Spellseeker</td><td>1</td></tr>
+						<tr><td>Strip Mine</td><td>3</td></tr>
+						<tr><td>Summoner’s Pact</td><td>1</td></tr>
+						<tr><td>Survival of the Fittest</td><td>2</td></tr>
+						<tr><td>Time Vault</td><td>7</td></tr>
+						<tr><td>Time Walk</td><td>7</td></tr>
+						<tr><td>Tinker</td><td>3</td></tr>
+						<tr><td>Tolarian Academy</td><td>1</td></tr>
+						<tr><td>Transmute Artifact</td><td>1</td></tr>
+						<tr><td>Treasure Cruise</td><td>1</td></tr>
+						<tr><td>True-Name Nemesis</td><td>1</td></tr>
+						<tr><td>Umezawa’s Jitte</td><td>2</td></tr>
+						<tr><td>Underworld Breach</td><td>1</td></tr>
+						<tr><td>Vampiric Tutor</td><td>2</td></tr>
+						<tr><td>Wishclaw Talisman</td><td>1</td></tr>
+						<tr><td>Yawgmoth’s Will</td><td>2</td></tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
